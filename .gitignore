@@ -1,0 +1,12 @@
+/sandbox
+
+# generated
+/bin
+
+# thrid-party libs
+/vendor
+
+# IDE metadata
+/nbproject
+/.idea
+

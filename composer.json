@@ -1,0 +1,30 @@
+{
+  "name": "biera/const-enum",
+  "description": "constant based enumeration class",
+  "type": "library",
+  "license": "MIT",
+  "keywords" : [
+    "enum", "enum type", "enum value object"
+  ],
+  "authors": [
+    {
+      "name": "Jakub Biernacki",
+      "email": "kubiernacki@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "biera/value-object" : "v0.0.2"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^2.5"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Biera\\" : "src/"
+    }
+  },
+  "config" : {
+    "bin-dir" : "bin"
+  }
+}
